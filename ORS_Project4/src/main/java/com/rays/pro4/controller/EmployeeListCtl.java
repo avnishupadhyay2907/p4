@@ -48,7 +48,7 @@ public class EmployeeListCtl extends BaseCtl {
 		bean.setUserName(DataUtility.getString(request.getParameter("userName")));
 		bean.setContactNumber(DataUtility.getString(request.getParameter("contactNumber")));
 		bean.setBirthDate(DataUtility.getDate(request.getParameter("birthDate")));
-		
+
 		System.out.println("request dob: " + request.getParameter("birthDate"));
 		System.out.println("bean dob: " + bean.getBirthDate());
 		populateDTO(bean, request);
@@ -124,7 +124,7 @@ public class EmployeeListCtl extends BaseCtl {
 		EmployeeModel model = new EmployeeModel();
 
 		if (OP_SEARCH.equalsIgnoreCase(op)) {
-		System.out.println("in employeee search ==>");
+			System.out.println("in employeee search ==>");
 			pageNo = 1;
 		} else if (OP_NEXT.equalsIgnoreCase(op)) {
 			pageNo++;

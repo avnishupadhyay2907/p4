@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.rays.pro4.Bean.BaseBean;
-import com.rays.pro4.Bean.RouteBean;
+
 import com.rays.pro4.Model.BaseModel;
 import com.rays.pro4.controller.BaseCtl;
 import com.rays.pro4.controller.ORSView;
@@ -332,9 +332,6 @@ public class ServletUtility {
 		return (Integer) request.getAttribute("pageSize");
 	}
 
-	public static void setBean(RouteBean bean, HttpServletRequest request) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }

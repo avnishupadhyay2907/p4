@@ -13,6 +13,9 @@ public interface ORSView {
 
 	public String JAVA_DOC_VIEW = APP_CONTEXT + "/doc/index.html";
 
+	public String CLIENT_VIEW = PAGE_FOLDER + "/ClientView.jsp";
+	public String CLIENT_LIST_VIEW = PAGE_FOLDER + "/ClientListView.jsp";
+	
 	public String MARKSHEET_VIEW = PAGE_FOLDER + "/MarksheetView.jsp";
 	public String MARKSHEET_LIST_VIEW = PAGE_FOLDER + "/MarksheetListView.jsp";
 
@@ -126,4 +129,7 @@ public interface ORSView {
 
 	public String COMPENSATION_CTL = APP_CONTEXT + "/ctl/CompensationCtl";
 	public String COMPENSATION_LIST_CTL = APP_CONTEXT + "/ctl/CompensationListCtl";
+	
+	String CLIENT_CTL = APP_CONTEXT + "/ctl/ClientCtl";
+	public String CLIENT_LIST_CTL = APP_CONTEXT + "/ctl/ClientListCtl";
 }
