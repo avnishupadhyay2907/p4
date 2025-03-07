@@ -11,10 +11,8 @@ import org.apache.log4j.Logger;
 
 import com.rays.pro4.Bean.BaseBean;
 import com.rays.pro4.Bean.EmployeeBean;
-import com.rays.pro4.Bean.EmployeeBean;
 import com.rays.pro4.Exception.ApplicationException;
 import com.rays.pro4.Exception.DuplicateRecordException;
-import com.rays.pro4.Model.EmployeeModel;
 import com.rays.pro4.Model.EmployeeModel;
 import com.rays.pro4.Util.DataUtility;
 import com.rays.pro4.Util.DataValidator;
@@ -77,6 +75,10 @@ public class EmployeeCtl extends BaseCtl {
 		}
 		if (DataValidator.isNull(request.getParameter("password"))) {
 			request.setAttribute("password", PropertyReader.getValue("error.require", "Password"));
+			pass = false;
+		} else if (!DataValidator.isPassword(request.getParameter("password"))) {
+			request.setAttribute("password",
+					"Password contain 8 letters with alpha-numeric,capital latter & special Character");
 			pass = false;
 		}
 		System.out.println("validate over ,.... Employee ctl");

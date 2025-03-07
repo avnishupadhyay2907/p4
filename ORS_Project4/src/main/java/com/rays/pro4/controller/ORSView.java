@@ -13,36 +13,11 @@ public interface ORSView {
 
 	public String JAVA_DOC_VIEW = APP_CONTEXT + "/doc/index.html";
 
-	public String CLIENT_VIEW = PAGE_FOLDER + "/ClientView.jsp";
-	public String CLIENT_LIST_VIEW = PAGE_FOLDER + "/ClientListView.jsp";
-	
-	public String MARKSHEET_VIEW = PAGE_FOLDER + "/MarksheetView.jsp";
-	public String MARKSHEET_LIST_VIEW = PAGE_FOLDER + "/MarksheetListView.jsp";
-
-	public String POSITION_VIEW = PAGE_FOLDER + "/PositionView.jsp";
-	public String POSITION_LIST_VIEW = PAGE_FOLDER + "/PositionListView.jsp";
-
-	public String CUSTOMER_LIST_VIEW = PAGE_FOLDER + "/CustomerListView.jsp";
-	public String CUSTOMER_VIEW = PAGE_FOLDER + "/CustomerView.jsp";
-
-	public String PRODUCT_LIST_VIEW = PAGE_FOLDER + "/ProductListView.jsp";
-	public String PRODUCT_VIEW = PAGE_FOLDER + "/ProductView.jsp";
-
-	public String ORDER_LIST_VIEW = PAGE_FOLDER + "/OrderListView.jsp";
-	public String ORDER_VIEW = PAGE_FOLDER + "/OrderView.jsp";
-
 	public String EMPLOYEE_LIST_VIEW = PAGE_FOLDER + "/EmployeeListView.jsp";
 	public String EMPLOYEE_VIEW = PAGE_FOLDER + "/EmployeeView.jsp";
 
-	public String STAFF_MEMBER_LIST_VIEW = PAGE_FOLDER + "/StaffMemberListView.jsp";
-	public String STAFF_MEMBER_VIEW = PAGE_FOLDER + "/StaffMemberView.jsp";
-
-	public String MEDICATION_LIST_VIEW = PAGE_FOLDER + "/MedicationListView.jsp";
-	public String MEDICATION_VIEW = PAGE_FOLDER + "/MedicationView.jsp";
-
-	public String COMPENSATION_LIST_VIEW = PAGE_FOLDER + "/CompensationListView.jsp";
-	public String COMPENSATION_VIEW = PAGE_FOLDER + "/CompensationView.jsp";
-
+	public String MARKSHEET_VIEW = PAGE_FOLDER + "/MarksheetView.jsp";
+	public String MARKSHEET_LIST_VIEW = PAGE_FOLDER + "/MarksheetListView.jsp";
 	public String GET_MARKSHEET_VIEW = PAGE_FOLDER + "/GetMarksheetView.jsp";
 	public String USER_VIEW = PAGE_FOLDER + "/UserView.jsp";
 	public String USER_LIST_VIEW = PAGE_FOLDER + "/UserListView.jsp";
@@ -69,19 +44,7 @@ public interface ORSView {
 	public String TIMETABLE_LIST_VIEW = PAGE_FOLDER + "/TimeTableListView.jsp";
 	public String ERROR_VIEW = PAGE_FOLDER + "/ErrorView.jsp";
 	// public String ERROR_VIEW5 = PAGE_FOLDER + "/ErrorView5.jsp";
-	public String ROUTE_VIEW = PAGE_FOLDER + "/RouteView.jsp";
-	public String ROUTE_LIST_VIEW = PAGE_FOLDER + "/RouteListView.jsp";
-	public String PORTFOLIO_MANAGEMENT_VIEW = PAGE_FOLDER + "/PortfolioManagementView.jsp";
-	public String PORTFOLIO_MANAGEMENT_LIST_VIEW = PAGE_FOLDER + "/PortfolioManagementListView.jsp";
 
-	public String PRODUCT_CTL = APP_CONTEXT + "/ctl/ProductCtl";
-	public String PRODUCT_LIST_CTL = APP_CONTEXT + "/ctl/ProductListCtl";
-
-	public String ORDER_CTL = APP_CONTEXT + "/ctl/OrderCtl";
-	public String ORDER_LIST_CTL = APP_CONTEXT + "/ctl/OrderListCtl";
-
-	public String CUSTOMER_CTL = APP_CONTEXT + "/ctl/CustomerCtl";
-	public String CUSTOMER_LIST_CTL = APP_CONTEXT + "/ctl/CustomerListCtl";
 	public String MARKSHEET_CTL = APP_CONTEXT + "/ctl/MarksheetCtl";
 	public String MARKSHEET_LIST_CTL = APP_CONTEXT + "/ctl/MarksheetListCtl";
 	public String USER_CTL = APP_CONTEXT + "/ctl/UserCtl";
@@ -110,26 +73,8 @@ public interface ORSView {
 	public String TIMETABLE_CTL = APP_CONTEXT + "/ctl/TimeTableCtl";
 	public String TIMETABLE_LIST_CTL = APP_CONTEXT + "/ctl/TimeTableListCtl";
 	public String ERROR_CTL = APP_CONTEXT + "/ErrorCtl";
-	public String ROUTE_CTL = APP_CONTEXT + "/ctl/RouteCtl";
-	public String ROUTE_LIST_CTL = APP_CONTEXT + "/ctl/RouteListCtl";
-	public String PORTFOLIO_MANAGEMENT_CTL = APP_CONTEXT + "/ctl/PortfolioManagementCtl";
-	public String PORTFOLIO_MANAGEMENT_LIST_CTL = APP_CONTEXT + "/ctl/PortfolioManagementListCtl";
 
 	public String EMPLOYEE_CTL = APP_CONTEXT + "/ctl/EmployeeCtl";
 	public String EMPLOYEE_LIST_CTL = APP_CONTEXT + "/ctl/EmployeeListCtl";
 
-	public String POSITION_CTL = APP_CONTEXT + "/ctl/PositionCtl";
-	public String POSITION_LIST_CTL = APP_CONTEXT + "/ctl/PositionListCtl";
-
-	public String STAFF_MEMBER_CTL = APP_CONTEXT + "/ctl/StaffMemberCtl";
-	public String STAFF_MEMBER_LIST_CTL = APP_CONTEXT + "/ctl/StaffMemberListCtl";
-
-	public String MEDICATION_CTL = APP_CONTEXT + "/ctl/MedicationCtl";
-	public String MEDICATION_LIST_CTL = APP_CONTEXT + "/ctl/MedicationListCtl";
-
-	public String COMPENSATION_CTL = APP_CONTEXT + "/ctl/CompensationCtl";
-	public String COMPENSATION_LIST_CTL = APP_CONTEXT + "/ctl/CompensationListCtl";
-	
-	String CLIENT_CTL = APP_CONTEXT + "/ctl/ClientCtl";
-	public String CLIENT_LIST_CTL = APP_CONTEXT + "/ctl/ClientListCtl";
 }

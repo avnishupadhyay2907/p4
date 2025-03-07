@@ -90,27 +90,8 @@
 					href="<%=ORSView.FACULTY_LIST_CTL%>">Faculty List</b></a> | <a
 					href="<%=ORSView.TIMETABLE_CTL%>">Add TimeTable</b></a> | <a
 					href="<%=ORSView.TIMETABLE_LIST_CTL%>">TimeTable List</b></a> | <a
-					href="<%=ORSView.ROUTE_CTL%>">Add Route</a> | <a
-					href="<%=ORSView.ROUTE_LIST_CTL%>">Route List</a> | <a
-					href="<%=ORSView.PORTFOLIO_MANAGEMENT_CTL%>">Add Portfolio </b>
-				</a> | <a href="<%=ORSView.PORTFOLIO_MANAGEMENT_LIST_CTL%>">Portfolio
-						Management List</b>
-				</a> | <a href="<%=ORSView.CUSTOMER_CTL%>">Add Customer</b></a> | <a
-					href="<%=ORSView.CUSTOMER_LIST_CTL%>">Customer List</b></a> | <a
-					href="<%=ORSView.PRODUCT_CTL%>">Add Product</b></a> | <a
-					href="<%=ORSView.PRODUCT_LIST_CTL%>">Product List</b></a> | <a
-					href="<%=ORSView.ORDER_CTL%>">Add Order</b></a> | <a
-					href="<%=ORSView.ORDER_LIST_CTL%>">Order List</b></a> | <a
 					href="<%=ORSView.EMPLOYEE_CTL%>">Add Employee</b></a> | <a
-					href="<%=ORSView.EMPLOYEE_LIST_CTL%>">Employee List</b></a> |<a
-					href="<%=ORSView.STAFF_MEMBER_CTL%>">Add Staff Member</b></a> | <a
-					href="<%=ORSView.STAFF_MEMBER_LIST_CTL%>">Staff Member List</b></a> |<a
-					href="<%=ORSView.MEDICATION_CTL%>">Add Medication</b></a> | <a
-					href="<%=ORSView.MEDICATION_LIST_CTL%>">Medication List</b></a> | <a
-					href="<%=ORSView.COMPENSATION_CTL%>">Add Compensation</b></a> |<a
-					href="<%=ORSView.COMPENSATION_LIST_CTL%>">Compensation List</b></a>|<a
-					href="<%=ORSView.POSITION_CTL%>">Add Position</b></a> |<a
-					href="<%=ORSView.POSITION_LIST_CTL%>">Position List</b></a> | <a
+					href="<%=ORSView.EMPLOYEE_LIST_CTL%>">Employee List</b></a> | <a
 					target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> | <%
 					}
 				%> <%
